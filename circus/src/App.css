@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 50px;
+  height: 7%;
 }
 .header h2 {
   font-weight: normal;
@@ -11,9 +12,18 @@
 .headerLinks {
   display: flex;
   list-style-type: none;
-  width: 30%;
+  align-items: center;
+  width: 35%;
   justify-content: space-between;
 }
-.page{
-  background-color: "#1E2A4C";
+#root{
+  height: 100vh;
+}
+.App{
+  height: 100%;
+}
+ul{
+  margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+    padding-inline-start: 0 !important;
 }

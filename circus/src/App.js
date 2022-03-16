@@ -19,10 +19,10 @@ function App() {
           <li><Button variant="text" style={{ color: colorText }} onClick={() => setActiveScreen('TICKETS')}>Prendre vos billets</Button></li>
         </ul>
       </div>
-      <div className='page'>
+      
         {activeScreen === 'HOME' && <Home />}
         {activeScreen === 'TALENTS' && <Talents />}
-      </div>
+      
 
     </div>
   );
