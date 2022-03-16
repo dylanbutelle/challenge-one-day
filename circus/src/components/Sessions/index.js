@@ -5,10 +5,9 @@ import { ButtonGroup } from "@mui/material";
 import Friday from "../DateSessions/friday";
 import Saturday from "../DateSessions/saturday";
 import Sunday from "../DateSessions/sunday";
-import App from "../../App";
+
 function Sessions() {
   const [session, setSession] = useState();
-  const [ticket, setTicket] = useState();
   return (
     <div className="sessionPage">
       <div className="buttons">
@@ -32,15 +31,6 @@ function Sessions() {
         {session === "SATURDAY" && <Saturday />}
         {session === "SUNDAY" && <Sunday />}
       </div>
-      <Button
-        variant="contained"
-        onClick={() => {
-          setTicket(true);
-        }}
-      >
-        Réserver votre billet
-      </Button>
-      {ticket === true && <App />}
     </div>
   );
 }

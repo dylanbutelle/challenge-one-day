@@ -1,9 +1,14 @@
-.date ul{
-	list-style-type: none;
-}
-
-.date li{
-	font-weight: bolder;
-	line-height: 25px;
+h1{
 	text-align: center;
+}
+.buttonsHour{
+	display: flex;
+	width: 50%;
+	justify-content: space-around;
+}
+.date{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
