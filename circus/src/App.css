@@ -27,3 +27,6 @@ ul{
     margin-block-end: 0 !important;
     padding-inline-start: 0 !important;
 }
+::-webkit-scrollbar {
+  display: none;
+}

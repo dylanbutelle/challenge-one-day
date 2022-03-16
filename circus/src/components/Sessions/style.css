@@ -1,0 +1,17 @@
+.sessionPage{
+	background: rgb(3, 42, 154);
+    background: radial-gradient(circle, rgba(3, 42, 154, 1) 0%, rgba(8, 5, 62, 1) 100%);
+    height: 93vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	color:white;
+}
+.buttons{
+	margin: 40px 0;
+}
+.sessions{
+	height: 80%;
+}

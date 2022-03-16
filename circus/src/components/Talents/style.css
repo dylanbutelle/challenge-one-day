@@ -1,0 +1,19 @@
+.talentsPage{
+	background: rgb(3, 42, 154);
+    background: radial-gradient(circle, rgba(3, 42, 154, 1) 0%, rgba(8, 5, 62, 1) 100%);
+    height: 93vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.allTalents{
+	display: flex;
+	flex-direction: row;
+	overflow-x: scroll;
+	padding-bottom: 40px;
+}
+.allTalents .talent{
+	padding: 0 25px;
+}

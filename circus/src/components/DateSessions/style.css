@@ -1,0 +1,9 @@
+.date ul{
+	list-style-type: none;
+}
+
+.date li{
+	font-weight: bolder;
+	line-height: 25px;
+	text-align: center;
+}
